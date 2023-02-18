@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-a{
+.forgot{
     text-decoration: none;
     color: lightgray;
-    font-size: 13px;
+    font-size: 15px;
 }
 
-a:hover{
+.forgot:hover{
     color: #fff;
 }
 
@@ -76,4 +76,16 @@ input {
 
 .description a{
     font-weight: 700;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+}
+
+.kevin {
+    font-weight: 700;
+    color: rgb(63, 65, 212);
+    text-decoration: none;
 }
