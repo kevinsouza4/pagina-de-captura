@@ -1,5 +1,17 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 13px;
+}
+
+a:hover{
+    color: #fff;
 }
 
 .imagem-fundo {
@@ -30,7 +42,7 @@ body {
     color: #fff;
     line-height: 50px;
 }
-.form{
+.formulario{
     display: flex;
     flex-direction: column;
 }
@@ -42,4 +54,26 @@ input {
     border: none;
     margin-bottom: 10px;
     border-radius: 50px;
+}
+
+.btn {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to right, orangered, orange);
+    cursor: pointer;
+}
+
+.description {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.description a{
+    font-weight: 700;
 }
